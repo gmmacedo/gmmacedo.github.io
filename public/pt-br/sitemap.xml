@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>//localhost:1313/</loc>
+            <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/en/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="//localhost:1313/de/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="pt-br"
+              href="//localhost:1313/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/portfolio/</loc>
+            <lastmod>2024-10-10T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/en/portfolio/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="//localhost:1313/de/portfolio/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="pt-br"
+              href="//localhost:1313/portfolio/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/learning/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/en/learning/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="pt-br"
+              href="//localhost:1313/learning/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/post/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/en/post/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="pt-br"
+              href="//localhost:1313/post/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/about/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="//localhost:1313/en/about/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="//localhost:1313/de/about/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="pt-br"
+              href="//localhost:1313/about/"
+              />
+          </url>
+    
+  
+    
+  
+</urlset>

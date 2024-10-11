@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfólio on Gabriel Moura</title>
+    <link>//localhost:1313/portfolio/</link>
+    <description>Recent content in Portfólio on Gabriel Moura</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <copyright>&amp;copy; 2024 Gabriel Moura</copyright>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
