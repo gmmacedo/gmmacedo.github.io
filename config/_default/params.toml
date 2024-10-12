@@ -22,7 +22,7 @@ fingerprintAlgorithm = "sha256"
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
 #  logo = "img/logo.png"
   # logoDark = "img/dark-logo.jpg"
-  showTitle = false
+  showTitle = true
 
 [footer]
   showCopyright = true
