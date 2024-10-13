@@ -31,9 +31,14 @@
   weight = 40
 
 [[main]]
+  name = "Reading"
+  pageRef = "books"
+  weight = 50
+
+[[main]]
   name = "GitHub"
   url = "https://github.com/gmmacedo"
-  weight = 50
+  weight = 60
   [main.params]
     icon = "github"
     showName = false

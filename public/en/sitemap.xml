@@ -85,6 +85,27 @@
   
     
       <url>
+            <loc>http://localhost:1313/en/books/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="pt-br"
+              href="http://localhost:1313/books/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="de"
+              href="http://localhost:1313/de/books/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/en/books/"
+              />
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/en/learning/</loc>
             <xhtml:link
               rel="alternate"

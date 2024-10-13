@@ -32,7 +32,7 @@
 
 [[main]]
   name = "Lendo"
-  pageRef = "reading"
+  pageRef = "books"
   weight = 50
 
 [[main]]
