@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Gabriel Moura</title>
+    <link>http://localhost:1313/en/categories/</link>
+    <description>Recent content in Categories on Gabriel Moura</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Apr 2025 14:49:05 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Citações</title>
+      <link>http://localhost:1313/en/categories/cita%C3%A7%C3%B5es/</link>
+      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/en/categories/cita%C3%A7%C3%B5es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>http://localhost:1313/en/categories/code/</link>
+      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/en/categories/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LaTeX</title>
+      <link>http://localhost:1313/en/categories/latex/</link>
+      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/en/categories/latex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teste</title>
+      <link>http://localhost:1313/en/categories/teste/</link>
+      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/en/categories/teste/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

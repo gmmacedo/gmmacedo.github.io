@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Citações on Gabriel Moura</title>
+    <link>http://localhost:1313/pt/categories/cita%C3%A7%C3%B5es/</link>
+    <description>Recent content in Citações on Gabriel Moura</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 13 Apr 2025 14:49:05 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/pt/categories/cita%C3%A7%C3%B5es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meu primeiro post</title>
+      <link>http://localhost:1313/pt/posts/my-first-post/my-first-post/</link>
+      <pubDate>Sun, 13 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/pt/posts/my-first-post/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lorem ipsum dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit. Fusce cursus dolor eu purus congue dignissim. Aenean maximus volutpat tristique. Suspendisse felis ante, condimentum at pretium hendrerit, lobortis consequat justo. Vivamus semper consectetur leo eget faucibus. Donec scelerisque, nisi ac rhoncus tincidunt, lorem dui tempor enim, eu iaculis nisl ligula eu nulla. Proin sit amet magna dignissim, semper lorem id, posuere diam. Quisque nec quam a lectus placerat eleifend at sit amet metus. Nam vulputate ultricies libero, ac eleifend risus scelerisque sit amet. Mauris auctor vehicula eros at convallis. Nam pharetra lacus dictum, suscipit sem a, scelerisque lacus. Pellentesque cursus purus in dui aliquet, quis tempor sem tristique.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

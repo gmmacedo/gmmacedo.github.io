@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gabriel Moura</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on Gabriel Moura</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;p&gt;Olá mundo! Me chamo Gabriel Moura, sou estudante de geologia e além de apaixonado pela terra, seu processo e a sua evolução, sempre tive muito interesse em programação e mais recentemente um interesse em estatística, data science e por aí vai. Em 2017 entrei no curso de geologia no Instituto Federal do Rio Grande do Norte e antes mesmo de terminar o curso eu entrei no curso de geologia na Universidade Federal do Rio Grande do Norte.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My first post</title>
+      <link>http://localhost:1313/en/posts/my-first-post/my-first-post/</link>
+      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/en/posts/my-first-post/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My second post</title>
+      <link>http://localhost:1313/en/posts/my-second-post/my-second-post/</link>
+      <pubDate>Fri, 11 Apr 2025 14:49:05 -0300</pubDate>
+      <guid>http://localhost:1313/en/posts/my-second-post/my-second-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
