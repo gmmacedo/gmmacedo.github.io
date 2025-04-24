@@ -11,6 +11,10 @@ enableMissingTranslationPlaceholders = true
     noClasses = false
     style = "monokai"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [languages]
 
     [languages.pt]
