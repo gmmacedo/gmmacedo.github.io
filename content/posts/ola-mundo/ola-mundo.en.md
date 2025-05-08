@@ -1,6 +1,7 @@
 ---
 date: '2025-05-03'
 draft: false
+url: 'posts/hello-world'
 title: 'Hello World!'
 toc: true
 categories: ['geologia', 'webdev', 'psicologia']

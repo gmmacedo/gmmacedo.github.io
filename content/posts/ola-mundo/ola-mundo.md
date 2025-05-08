@@ -1,6 +1,7 @@
 ---
 date: '2025-05-03'
 draft: false
+url: 'posts/ola-mundo'
 title: 'Olá, mundo!'
 toc: true
 categories: ['geologia', 'webdev', 'psicologia']
