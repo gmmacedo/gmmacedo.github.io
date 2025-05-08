@@ -47,12 +47,6 @@ enableMissingTranslationPlaceholders = true
         name = "Blog"
         url = "/pt/posts/"
         weight = 2
-        
-        [[languages.pt.menu.main]]
-        identifier = "education"
-        name = "Aprendendo"
-        url = "/pt/ed/"
-        weight = 3
 
     [languages.en.menu]
         [[languages.en.menu.main]]
@@ -66,9 +60,3 @@ enableMissingTranslationPlaceholders = true
         name = "Blog"
         url = "/en/posts/"
         weight = 2
-
-        [[languages.en.menu.main]]
-        identifier = "education"
-        name = "Learning"
-        url = "/en/ed/"
-        weight = 3
