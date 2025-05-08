@@ -6,21 +6,14 @@
     <description>Recent content in Posts on Gabriel Moura</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Apr 2025 14:49:05 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first post</title>
-      <link>http://localhost:1313/en/posts/my-first-post/my-first-post/</link>
-      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
-      <guid>http://localhost:1313/en/posts/my-first-post/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My second post</title>
-      <link>http://localhost:1313/en/posts/my-second-post/my-second-post/</link>
-      <pubDate>Fri, 11 Apr 2025 14:49:05 -0300</pubDate>
-      <guid>http://localhost:1313/en/posts/my-second-post/my-second-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <title>Hello World!</title>
+      <link>http://localhost:1313/en/posts/ola-mundo/hello-world/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/ola-mundo/hello-world/</guid>
+      <description>&lt;p&gt;Hello, reader! Welcome to my website, here I intend to write a little about geology and technology, as well as some other sub-areas that are of my interest. Here I intend to avoid topics that I don&amp;rsquo;t have mastery of, and even if I don&amp;rsquo;t, my basis will be referenced by people who have such expertise.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;You are creating a website/blog at a time when many people, professionals, and influencers are leaving this type of platform. — You must be asking&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gabriel Moura</title>
-    <link>http://localhost:1313/en/</link>
-    <description>Recent content on Gabriel Moura</description>
+    <title>Webdev on Gabriel Moura</title>
+    <link>http://localhost:1313/en/categories/webdev/</link>
+    <description>Recent content in Webdev on Gabriel Moura</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/categories/webdev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
       <link>http://localhost:1313/en/posts/ola-mundo/hello-world/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/posts/ola-mundo/hello-world/</guid>
       <description>&lt;p&gt;Hello, reader! Welcome to my website, here I intend to write a little about geology and technology, as well as some other sub-areas that are of my interest. Here I intend to avoid topics that I don&amp;rsquo;t have mastery of, and even if I don&amp;rsquo;t, my basis will be referenced by people who have such expertise.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;You are creating a website/blog at a time when many people, professionals, and influencers are leaving this type of platform. — You must be asking&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>http://localhost:1313/en/about/</link>
-      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/about/</guid>
-      <description>&lt;p&gt;Hello world! My name is Gabriel Moura, I am a geology student and besides being passionate about the earth, its processes and its evolution, I have always been very interested in programming and more recently an interest in statistics, data science, and so on. in 2017, I started the geology course at the Instituto Federal do Rio Grande do Norte (IFRN), and even before finishing the course, I enrolled in the geology course at the Universidade Federal do Rio Grande do Norte (UFRN).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,34 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/about/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/about/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -41,60 +15,37 @@
                 href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/cita%C3%A7%C3%B5es/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/cita%C3%A7%C3%B5es/"
+                href="http://localhost:1313/pt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/categories/cita%C3%A7%C3%B5es/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/code/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
+    <loc>http://localhost:1313/en/categories/geologia/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/code/"
+                href="http://localhost:1313/pt/categories/geologia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/categories/code/"
+                href="http://localhost:1313/en/categories/geologia/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/latex/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/latex/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/my-first-post/my-first-post/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/posts/my-first-post/my-first-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/posts/my-first-post/my-first-post/"
-                />
+    <loc>http://localhost:1313/en/posts/ola-mundo/hello-world/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -106,30 +57,43 @@
                 href="http://localhost:1313/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/teste/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
+    <loc>http://localhost:1313/en/categories/psicologia/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/teste/"
+                href="http://localhost:1313/pt/categories/psicologia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/categories/teste/"
+                href="http://localhost:1313/en/categories/psicologia/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/my-second-post/my-second-post/</loc>
-    <lastmod>2025-04-11T14:49:05-03:00</lastmod>
+    <loc>http://localhost:1313/en/categories/webdev/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="http://localhost:1313/pt/posts/my-second-post/my-second-post/"
+                href="http://localhost:1313/pt/categories/webdev/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/posts/my-second-post/my-second-post/"
+                href="http://localhost:1313/en/categories/webdev/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/about/</loc>
+    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/about/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>

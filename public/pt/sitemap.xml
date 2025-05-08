@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/pt/categories/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/categories/"
+                />
+  </url><url>
     <loc>http://localhost:1313/pt/</loc>
-    <lastmod>2025-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -13,6 +26,61 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt/categories/geologia/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/geologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/categories/geologia/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt/posts/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/posts/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt/categories/psicologia/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/psicologia/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/categories/psicologia/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/pt/categories/webdev/</loc>
+    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/categories/webdev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/categories/webdev/"
                 />
   </url><url>
     <loc>http://localhost:1313/pt/about/</loc>
@@ -26,119 +94,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="http://localhost:1313/pt/about/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/categories/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/categories/cita%C3%A7%C3%B5es/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/cita%C3%A7%C3%B5es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/cita%C3%A7%C3%B5es/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/categories/code/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/code/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/categories/latex/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/latex/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/posts/my-first-post/my-first-post/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/posts/my-first-post/my-first-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/posts/my-first-post/my-first-post/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/posts/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/categories/teste/</loc>
-    <lastmod>2025-04-13T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/categories/teste/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/categories/teste/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/pt/posts/my-first-post-copy-2/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt/posts/my-first-post-copy-3/</loc>
-    <lastmod>2025-04-12T14:49:05-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt/categories/geologia/</loc>
-    <lastmod>2025-04-11T14:49:05-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pt/posts/my-second-post/my-second-post/</loc>
-    <lastmod>2025-04-11T14:49:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/posts/my-second-post/my-second-post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="http://localhost:1313/pt/posts/my-second-post/my-second-post/"
                 />
   </url><url>
     <loc>http://localhost:1313/pt/tags/</loc>

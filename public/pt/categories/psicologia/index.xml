@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gabriel Moura</title>
-    <link>http://localhost:1313/pt/</link>
-    <description>Recent content on Gabriel Moura</description>
+    <title>Psicologia on Gabriel Moura</title>
+    <link>http://localhost:1313/pt/categories/psicologia/</link>
+    <description>Recent content in Psicologia on Gabriel Moura</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/pt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pt/categories/psicologia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Olá, mundo!</title>
       <link>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</guid>
       <description>&lt;p&gt;Olá, leitor! Seja bem-vindo ao meu site, aqui eu pretendo escrever um pouco sobre geologia e tecnologia, assim como algumas outras sub-áreas que são do meu interesse. Aqui pretendo evitar sobre assuntos que eu não tenha domínio e mesmo que eu não o tenha, minha base terá como referência pessoas que possuem tal expertise.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Você está criando um site/blog num momento em que muitas pessoas, profissionais e &lt;em&gt;influencers&lt;/em&gt; estão deixando esse tipo de plataforma.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sobre mim</title>
-      <link>http://localhost:1313/pt/about/</link>
-      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pt/about/</guid>
-      <description>&lt;p&gt;Olá mundo! Me chamo Gabriel Moura, sou estudante de geologia e além de apaixonado pela terra, seu processo e a sua evolução, sempre tive muito interesse em programação e mais recentemente um interesse em estatística, data science e por aí vai. Em 2017 entrei no curso de geologia no Instituto Federal do Rio Grande do Norte e antes mesmo de terminar o curso eu entrei no curso de geologia na Universidade Federal do Rio Grande do Norte.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

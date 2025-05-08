@@ -6,35 +6,14 @@
     <description>Recent content in Posts on Gabriel Moura</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 13 Apr 2025 14:49:05 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pt/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Meu primeiro post</title>
-      <link>http://localhost:1313/pt/posts/my-first-post/my-first-post/</link>
-      <pubDate>Sun, 13 Apr 2025 14:49:05 -0300</pubDate>
-      <guid>http://localhost:1313/pt/posts/my-first-post/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lorem ipsum dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit. Fusce cursus dolor eu purus congue dignissim. Aenean maximus volutpat tristique. Suspendisse felis ante, condimentum at pretium hendrerit, lobortis consequat justo. Vivamus semper consectetur leo eget faucibus. Donec scelerisque, nisi ac rhoncus tincidunt, lorem dui tempor enim, eu iaculis nisl ligula eu nulla. Proin sit amet magna dignissim, semper lorem id, posuere diam. Quisque nec quam a lectus placerat eleifend at sit amet metus. Nam vulputate ultricies libero, ac eleifend risus scelerisque sit amet. Mauris auctor vehicula eros at convallis. Nam pharetra lacus dictum, suscipit sem a, scelerisque lacus. Pellentesque cursus purus in dui aliquet, quis tempor sem tristique.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Third Post</title>
-      <link>http://localhost:1313/pt/posts/my-first-post-copy-2/</link>
-      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
-      <guid>http://localhost:1313/pt/posts/my-first-post-copy-2/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Third Post</title>
-      <link>http://localhost:1313/pt/posts/my-first-post-copy-3/</link>
-      <pubDate>Sat, 12 Apr 2025 14:49:05 -0300</pubDate>
-      <guid>http://localhost:1313/pt/posts/my-first-post-copy-3/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Meu segundo post</title>
-      <link>http://localhost:1313/pt/posts/my-second-post/my-second-post/</link>
-      <pubDate>Fri, 11 Apr 2025 14:49:05 -0300</pubDate>
-      <guid>http://localhost:1313/pt/posts/my-second-post/my-second-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;teste&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;calcular&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;calcular&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <title>Olá, mundo!</title>
+      <link>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</guid>
+      <description>&lt;p&gt;Olá, leitor! Seja bem-vindo ao meu site, aqui eu pretendo escrever um pouco sobre geologia e tecnologia, assim como algumas outras sub-áreas que são do meu interesse. Aqui pretendo evitar sobre assuntos que eu não tenha domínio e mesmo que eu não o tenha, minha base terá como referência pessoas que possuem tal expertise.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Você está criando um site/blog num momento em que muitas pessoas, profissionais e &lt;em&gt;influencers&lt;/em&gt; estão deixando esse tipo de plataforma.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
