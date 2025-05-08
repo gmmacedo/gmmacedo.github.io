@@ -41,8 +41,18 @@
                 href="http://localhost:1313/en/categories/geologia/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/posts/ola-mundo/hello-world/</loc>
+    <loc>http://localhost:1313/en/posts/hello-world/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/posts/ola-mundo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/posts/hello-world/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/pt/categories/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -15,8 +15,11 @@
                 href="http://localhost:1313/pt/categories/"
                 />
   </url><url>
+    <loc>http://localhost:1313/pt/ed/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/pt/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -29,7 +32,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/pt/categories/geologia/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
@@ -41,8 +44,27 @@
                 href="http://localhost:1313/pt/categories/geologia/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</loc>
+    <loc>http://localhost:1313/pt/categories/hidrotermalismo/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt/ed/recursos-minerais/recursos-minerais/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt/categories/recursos-minerais/</loc>
+    <lastmod>2025-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pt/posts/ola-mundo/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/posts/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://localhost:1313/pt/posts/ola-mundo/"
+                />
   </url><url>
     <loc>http://localhost:1313/pt/posts/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Geologia on Gabriel Moura</title>
-    <link>http://localhost:1313/pt/categories/geologia/</link>
-    <description>Recent content in Geologia on Gabriel Moura</description>
+    <title>Recursos Minerais on Gabriel Moura</title>
+    <link>http://localhost:1313/pt/categories/recursos-minerais/</link>
+    <description>Recent content in Recursos Minerais on Gabriel Moura</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/pt/categories/geologia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/pt/categories/recursos-minerais/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Recursos minerais</title>
       <link>http://localhost:1313/pt/ed/recursos-minerais/recursos-minerais/</link>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pt/ed/recursos-minerais/recursos-minerais/</guid>
       <description>&lt;p&gt;Greisens são um tipo de rocha resultante da alteração hidrotermal de granitos, especialmente rica em quartzo e mica (geralmente moscovita). Eles se formam quando fluidos ricos em elementos voláteis, como flúor, boro e água, circulam através do granito durante os estágios finais do seu resfriamento, promovendo reações químicas que alteram a composição original da rocha.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Características principais dos greisens:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Compostos principalmente por &lt;strong&gt;quartzo&lt;/strong&gt;, &lt;strong&gt;mica (moscovita ou lepidolita)&lt;/strong&gt; e, em alguns casos, &lt;strong&gt;topázio&lt;/strong&gt; e &lt;strong&gt;turmalina&lt;/strong&gt;;&lt;/li&gt;&#xA;&lt;li&gt;Textura granular, muitas vezes com aparência esbranquiçada ou acinzentada;&lt;/li&gt;&#xA;&lt;li&gt;Associados com mineralizações de metais como &lt;strong&gt;estanho (cassiterita)&lt;/strong&gt;, &lt;strong&gt;tungstênio (wolframita)&lt;/strong&gt;, &lt;strong&gt;molibdênio&lt;/strong&gt; e &lt;strong&gt;lítio&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ambiente geológico típico:&lt;/strong&gt;&#xA;Greisens são comuns em ambientes &lt;strong&gt;pegmatíticos&lt;/strong&gt; ou em sistemas &lt;strong&gt;graníticos ricos em voláteis&lt;/strong&gt;, especialmente aqueles ligados a batólitos graníticos de origem intrusiva.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Olá, mundo!</title>
-      <link>http://localhost:1313/pt/posts/ola-mundo/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pt/posts/ola-mundo/</guid>
-      <description>&lt;p&gt;Olá, leitor! Seja bem-vindo ao meu site, aqui eu pretendo escrever um pouco sobre geologia e tecnologia, assim como algumas outras sub-áreas que são do meu interesse. Aqui pretendo evitar sobre assuntos que eu não tenha domínio e mesmo que eu não o tenha, minha base terá como referência pessoas que possuem tal expertise.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Você está criando um site/blog num momento em que muitas pessoas, profissionais e &lt;em&gt;influencers&lt;/em&gt; estão deixando esse tipo de plataforma.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

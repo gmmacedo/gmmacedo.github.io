@@ -6,13 +6,27 @@
     <description>Recent content in Categories on Gabriel Moura</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/pt/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Geologia</title>
       <link>http://localhost:1313/pt/categories/geologia/</link>
-      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/pt/categories/geologia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hidrotermalismo</title>
+      <link>http://localhost:1313/pt/categories/hidrotermalismo/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/categories/hidrotermalismo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursos Minerais</title>
+      <link>http://localhost:1313/pt/categories/recursos-minerais/</link>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pt/categories/recursos-minerais/</guid>
       <description></description>
     </item>
     <item>

@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/pt/categories/psicologia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Olá, mundo!</title>
-      <link>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</link>
+      <link>http://localhost:1313/pt/posts/ola-mundo/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/pt/posts/ola-mundo/ola-mundo/</guid>
+      <guid>http://localhost:1313/pt/posts/ola-mundo/</guid>
       <description>&lt;p&gt;Olá, leitor! Seja bem-vindo ao meu site, aqui eu pretendo escrever um pouco sobre geologia e tecnologia, assim como algumas outras sub-áreas que são do meu interesse. Aqui pretendo evitar sobre assuntos que eu não tenha domínio e mesmo que eu não o tenha, minha base terá como referência pessoas que possuem tal expertise.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Você está criando um site/blog num momento em que muitas pessoas, profissionais e &lt;em&gt;influencers&lt;/em&gt; estão deixando esse tipo de plataforma.&lt;/p&gt;</description>
     </item>
   </channel>
