@@ -6,8 +6,9 @@ defaultContentLanguage = 'pt'
 defaultContentLanguageInSubdir = true
 enableMissingTranslationPlaceholders = true
 
-[params]
-    googleAnalytics = 'G-XS61PN2LXC'
+[services]
+  [services.googleAnalytics]
+    id = 'G-XS61PN2LXC'
 
 [markup]
   [markup.highlight]

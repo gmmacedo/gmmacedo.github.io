@@ -9,7 +9,7 @@
     <title>Gabriel Moura</title>
     {{ partial "katex.html" . }}
 
-    {{ with .Site.Params.googleAnalytics }}
+    {{ with .Site.Config.Services.GoogleAnalytics.ID }}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
     <script>
