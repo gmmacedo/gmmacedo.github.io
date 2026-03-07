@@ -42,12 +42,6 @@ enableMissingTranslationPlaceholders = true
         url = "/pt/about/"
         weight = 1
         
-        [[languages.pt.menu.main]]
-        identifier = "posts"
-        name = "Blog"
-        url = "/pt/posts/"
-        weight = 2
-
     [languages.en.menu]
         [[languages.en.menu.main]]
         identifier = "about"
@@ -55,8 +49,3 @@ enableMissingTranslationPlaceholders = true
         url = "/en/about/"
         weight = 1
 
-        [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Blog"
-        url = "/en/posts/"
-        weight = 2
