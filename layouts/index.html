@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 30vh; text-align: center;">
+  <main style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 30vh; text-align: center;">
     <h1 style="font-size: 4rem; margin-bottom: 1rem;">
       {{ .Site.Title }}
     </h1>
@@ -8,7 +8,6 @@
     </h3>
     <br>
     <h3><a href="https://www.instagram.com/gmmacedogeo" class="socialLinks">Instagram</a> | <a href="https://linkedin.com/in/gabriel-moura-macedo/" class="socialLinks">Linkedin</a></h3>
-  </main>
     <ul class='homeListPosts'>
      {{ range where .Site.RegularPages "Section" "posts" }}
        <li style="display: flex">
@@ -16,4 +15,5 @@
        </li>
      {{ end }}
     </ul>
-{{ end }}
+  </main>
+   {{ end }}

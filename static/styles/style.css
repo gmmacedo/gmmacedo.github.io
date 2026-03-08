@@ -509,3 +509,43 @@ a {
   color: var(--linkAccent);
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .homeListPosts {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .homeListPosts li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .homeListPosts li span {
+    align-self: flex-end;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .homeListPosts {
+    width: 100%;
+  }
+
+  .homeListPosts li a {
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 1024px) {
+  .singleToc {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .singleToc {
+    display: none;
+  }
+}
