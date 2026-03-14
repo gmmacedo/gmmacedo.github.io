@@ -1,5 +1,5 @@
 :root {
-    --bg: #32302f;
+    --bg: #282625;
     --bgSoft: #3e3b39;
     --text: #dee4eb;
     --textSoft: #b8f0c9;
@@ -35,7 +35,7 @@
 
 body {
     background: var(--bg);
-    color: #fbf1c7;
+    color: #ffffff;
 /*     font-family: 'Fira Code', monospace; */
 /*     font-family: 'Computer Modern Roman', normal; */
     font-family: "Latin Modern Roman", normal;
@@ -48,7 +48,7 @@ body {
     padding-right: 50px;
     margin: auto;
     min-height: 100vh;
-    background-color: #32302f;
+    background-color: #282625;
     display: flex;
     flex-direction: column;
 }
