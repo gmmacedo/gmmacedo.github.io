@@ -9,7 +9,7 @@ enableMissingTranslationPlaceholders = true
 [markup]
   [markup.highlight]
     noClasses = false
-    style = "monokai"
+    style = "gruvbox"
 
 [caches]
   [caches.images]
