@@ -1,0 +1,77 @@
+
+:root {
+  --table-bg: #282828;
+  --table-head: #3c3836;
+  --table-stripe: #32302f;
+  --table-hover: #504945;
+  --table-border: #504945;
+  --table-text: #ebdbb2;
+  --table-accent: #84cc16;
+  --table-link: #83a598;
+}
+
+table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--table-bg);
+  color: var(--table-text);
+  border: 1px solid var(--table-border);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--table-border);
+}
+
+table th {
+  background: var(--table-head);
+  color: var(--table-accent);
+  font-weight: 700;
+  border-bottom: 2px solid var(--table-accent);
+}
+
+table tbody tr:nth-child(even) {
+  background: var(--table-stripe);
+}
+
+table tbody tr:hover {
+  background: var(--table-hover);
+}
+
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table td a {
+  color: var(--table-link);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+table td a:hover {
+  color: var(--table-accent);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  table th,
+  table td {
+    padding: 0.6rem 0.8rem;
+  }
+}
