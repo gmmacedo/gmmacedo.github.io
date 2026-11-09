@@ -1,7 +1,7 @@
 ---
 title: "Quando o site cai: como acessei os poços do SIAGAS direto pelo QGIS"
 date: 2026-11-09
-draft: true
+draft: false
 categories: ["geoprocessamento", "python", "database"]
 ---
 
