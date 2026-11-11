@@ -1,0 +1,161 @@
+
+/* =====================================
+   Hextra — Gruvbox Dark + Lime
+   ===================================== */
+
+:root {
+  --primary-hue: 81deg;
+  --primary-saturation: 81%;
+  --primary-lightness: 44%;
+
+  --gruv-bg: #282828;
+  --gruv-bg-soft: #32302f;
+  --gruv-bg-alt: #3c3836;
+  --gruv-border: #504945;
+
+  --gruv-fg: #ebdbb2;
+  --gruv-muted: #a89984;
+  --gruv-green: #84cc16;
+  --gruv-blue: #83a598;
+}
+
+/* Fundo e textos */
+html.dark,
+html.dark body {
+  background-color: var(--gruv-bg);
+  color: var(--gruv-fg);
+}
+
+html.dark .content {
+  color: var(--gruv-fg);
+}
+
+html.dark .content :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--gruv-fg);
+}
+
+/* Navbar, sidebar e footer */
+html.dark .hextra-nav-container,
+html.dark .hextra-sidebar-container,
+html.dark .hextra-toc,
+html.dark .hextra-footer {
+  background-color: var(--gruv-bg);
+  color: var(--gruv-fg);
+}
+
+/* Links */
+html.dark .content a {
+  color: var(--gruv-green);
+  text-decoration-color: var(--gruv-border);
+}
+
+html.dark .content a:hover {
+  text-decoration-color: var(--gruv-green);
+}
+
+/* Cards */
+html.dark .hextra-card {
+  background: var(--gruv-bg-soft);
+  border-color: var(--gruv-border);
+}
+
+html.dark .hextra-card:hover {
+  border-color: var(--gruv-green);
+}
+
+/* Código inline */
+html.dark .content code:not(.code-block code) {
+  color: var(--gruv-green);
+  background: var(--gruv-bg-alt);
+  border-radius: 4px;
+  padding: 0.15em 0.35em;
+}
+
+/* Blocos de código */
+html.dark .highlight,
+html.dark .highlight pre {
+  background-color: var(--gruv-bg-soft);
+  border-radius: 8px;
+}
+
+/* Tabelas */
+html.dark .content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  background: var(--gruv-bg);
+  color: var(--gruv-fg);
+  border: 1px solid var(--gruv-border);
+  border-radius: 8px;
+}
+
+html.dark .content th,
+html.dark .content td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gruv-border);
+}
+
+html.dark .content th {
+  background: var(--gruv-bg-alt);
+  color: var(--gruv-green);
+  font-weight: 700;
+}
+
+html.dark .content tbody tr:nth-child(even) {
+  background: var(--gruv-bg-soft);
+}
+
+html.dark .content tbody tr:hover {
+  background: var(--gruv-bg-alt);
+}
+
+/* Citações */
+html.dark .content blockquote {
+  border-left-color: var(--gruv-green);
+  background: var(--gruv-bg-soft);
+  color: var(--gruv-fg);
+  padding: 0.75rem 1rem;
+}
+
+/* Separadores */
+html.dark .content hr {
+  border-color: var(--gruv-border);
+}
+
+/* Seleção de texto */
+html.dark ::selection {
+  background: var(--gruv-green);
+  color: var(--gruv-bg);
+}
+
+/* Gruvbox — rodapé do TOC */
+
+#backToTop {
+  color: #84cc16 !important;
+}
+
+#backToTop.parent-fix {
+  color: #84cc16 !important;
+}
+
+div.hx\:sticky.hx\:bottom-0:has(#backToTop) {
+  background-color: #282828 !important;
+  box-shadow: 0 -12px 16px #282828 !important;
+  border-top-color: #504945 !important;
+}
+/* Hextra — Gruvbox Scroll to Top */
+
+html.dark div.hx\:sticky.hx\:bottom-0:has(> #backToTop) {
+  background-color: #282828 !important;
+  box-shadow: 0 -12px 16px #282828 !important;
+  border-top-color: #504945 !important;
+}
+
+html.dark #backToTop {
+  color: #a89984 !important;
+}
+
+html.dark #backToTop:hover {
+  color: #84cc16 !important;
+}
