@@ -110,6 +110,12 @@ html.dark .content tbody tr:hover {
   background: var(--gruv-bg-alt);
 }
 
+html.dark .content table {
+  display: table;
+  width: max-content;
+  max-width: 100%;
+}
+
 /* Citações */
 html.dark .content blockquote {
   border-left-color: var(--gruv-green);
@@ -158,4 +164,41 @@ html.dark #backToTop {
 
 html.dark #backToTop:hover {
   color: #84cc16 !important;
+}
+
+/* Fonte dos artigos */
+html body .content {
+  font-family: "Afacad", sans-serif;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+/* Títulos */
+html body .content :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Afacad", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+/* Interface: navegação, TOC e sidebar */
+html body,
+html body nav,
+html body aside,
+html body button,
+html body .hextra-sidebar-container,
+html body .hextra-toc {
+  font-family: "Afacad", sans-serif;
+}
+
+/* Código mantém fonte monoespaçada */
+html body pre,
+html body code,
+html body kbd {
+  font-family: ui-monospace, "SFMono-Regular",
+    Consolas, "Anonymous Pro", monospace;
+}
+
+/* Tabelas */
+html body .content table {
+  font-family: "Afacad", sans-serif;
 }
