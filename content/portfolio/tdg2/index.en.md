@@ -1,7 +1,7 @@
 ---
 title: "Geological data analysis"
 date: 2025-05-21
-draft: false
+draft: true
 categories: ["geospatial analysis", "python", "database"]
 description: "Geochemical analysis and spatial interpolation with Python and QGIS, comparing nine power values for inverse distance weighting."
 cover: Contour_plot.png
