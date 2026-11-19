@@ -1,0 +1,12 @@
+{{ $page := .page }}
+<article class="site-entry">
+  <div class="site-entry-meta">{{ partial "editorial-meta.html" $page }}</div>
+  {{ if .archive }}
+    <h2><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
+  {{ else }}
+    <h3><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h3>
+  {{ end }}
+  {{ $description := $page.Description | default ($page.Summary | plainify | htmlUnescape | truncate 170) }}
+  {{ with $description }}<p>{{ . }}</p>{{ end }}
+  {{ if eq $page.Section "portfolio" }}{{ partial "editorial-topics.html" $page }}{{ end }}
+</article>

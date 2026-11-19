@@ -1,0 +1,9 @@
+<footer class="site-footer">
+  <div class="site-shell site-footer-inner">
+    <a class="site-brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Home.Title }}</a>
+    {{ with .Site.Params.linkedin }}
+      <a class="site-text-link" href="{{ . }}">LinkedIn <span aria-hidden="true">↗</span></a>
+    {{ end }}
+  </div>
+</footer>
+{{ partial "image-viewer.html" . }}

@@ -1,0 +1,6 @@
+<link rel="stylesheet" href="{{ "fonts/stix-two-text/font-face.css" | relURL }}">
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+{{ end }}

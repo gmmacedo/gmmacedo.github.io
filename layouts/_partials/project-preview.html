@@ -1,0 +1,14 @@
+{{ $project := . }}
+{{ with .Params.cover }}
+  {{ with $project.Resources.GetMatch . }}
+    {{ $preview := .Resize "840x webp" }}
+    <figure class="project-preview">
+      <a href="{{ $project.RelPermalink }}" class="project-preview-link" aria-label="{{ T "siteViewProject" $project.Title }}">
+        <img src="{{ $preview.RelPermalink }}" width="{{ $preview.Width }}" height="{{ $preview.Height }}" alt="{{ $project.Params.coverCaption }}" decoding="async" data-image-viewer-source="{{ .RelPermalink }}" data-image-viewer-caption="{{ $project.Params.coverCaption }}">
+      </a>
+      {{ with $project.Params.coverCaption }}
+        <figcaption class="project-preview-caption">{{ . }} <span aria-hidden="true">↗</span></figcaption>
+      {{ end }}
+    </figure>
+  {{ end }}
+{{ end }}

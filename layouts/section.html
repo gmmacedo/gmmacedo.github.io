@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ if in (slice "posts" "portfolio") .Section }}
+    <main id="content" class="site-shell site-archive">
+      <header class="site-page-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="site-deck">{{ . }}</p>{{ end }}
+      </header>
+      {{ with .Content }}<div class="content">{{ . }}</div>{{ end }}
+      {{ $paginator := .Paginate .RegularPagesRecursive.ByDate.Reverse }}
+      <div class="site-archive-entries">
+        {{ range $paginator.Pages }}
+          <div class="site-archive-row">
+            {{ if eq .Section "portfolio" }}{{ partial "project-preview.html" . }}{{ end }}
+            {{ partial "editorial-entry.html" (dict "page" . "archive" true) }}
+          </div>
+        {{ end }}
+      </div>
+      {{ partial "components/blog-pager.html" $paginator }}
+    </main>
+  {{ else }}
+    {{ partial "editorial-page.html" . }}
+  {{ end }}
+{{ end }}

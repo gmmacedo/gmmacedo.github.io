@@ -1,0 +1,52 @@
+{{ define "main" }}
+  {{ $project := .GetPage .Params.featuredProject }}
+  {{ $portfolio := .GetPage "/portfolio" }}
+  {{ $blog := .GetPage "/posts" }}
+  <main id="content" class="site-shell">
+    <section class="home-intro{{ if not $project }} home-intro-text-only{{ end }}">
+      <div class="home-intro-copy">
+        {{ with .Params.subtitle }}<p class="site-kicker">{{ . }}</p>{{ end }}
+        <h1>{{ .Title }}</h1>
+        <div class="home-description">{{ .Content }}</div>
+        <div class="home-actions">
+          {{ with $portfolio }}
+            <a class="site-button" href="{{ .RelPermalink }}">{{ T "siteViewProjects" }} <span aria-hidden="true">↗</span></a>
+          {{ end }}
+          {{ with $blog }}
+            <a class="site-text-link" href="{{ .RelPermalink }}">{{ T "siteReadBlog" }} <span aria-hidden="true">→</span></a>
+          {{ end }}
+        </div>
+      </div>
+      {{ with $project }}{{ partial "project-preview.html" . }}{{ end }}
+    </section>
+
+    <div class="home-sections">
+      {{ with $portfolio }}
+        <section aria-labelledby="projects-heading">
+          <div class="site-section-heading">
+            <h2 id="projects-heading">{{ .Title }}</h2>
+            <a class="site-text-link" href="{{ .RelPermalink }}" aria-label="{{ T "siteAllProjects" }}">{{ T "siteViewAll" }} <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="site-entries">
+            {{ range first 2 .RegularPages.ByDate.Reverse }}
+              {{ partial "editorial-entry.html" (dict "page" .) }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+      {{ with $blog }}
+        <section aria-labelledby="posts-heading">
+          <div class="site-section-heading">
+            <h2 id="posts-heading">{{ T "siteRecentPosts" }}</h2>
+            <a class="site-text-link" href="{{ .RelPermalink }}" aria-label="{{ T "siteAllPosts" }}">{{ T "siteViewAll" }} <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="site-entries">
+            {{ range first 3 .RegularPagesRecursive.ByDate.Reverse }}
+              {{ partial "editorial-entry.html" (dict "page" .) }}
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </main>
+{{ end }}

@@ -1,0 +1,20 @@
+siteMainNav: Navegação principal
+siteLanguages: Idioma
+siteViewProjects: Ver projetos
+siteReadBlog: Ler o blog
+siteViewAll: Ver todos
+siteAllProjects: Todos os projetos
+siteRecentPosts: Artigos recentes
+siteAllPosts: Todos os artigos
+siteTopics: Temas
+siteInThisArticle: Neste texto
+siteViewProject: 'Ver projeto: {{ . }}'
+siteReadingTime: '{{ . }} min de leitura'
+siteInteractiveMap: Mapa interativo
+siteImageViewer: Visualizador de imagens
+siteOpenImage: Abrir visualizador de imagens
+siteZoomOut: Diminuir ampliação
+siteZoomIn: Aumentar ampliação
+siteCloseImage: Fechar visualizador de imagens
+siteNotFound: Página não encontrada
+siteBackHome: Voltar à página inicial

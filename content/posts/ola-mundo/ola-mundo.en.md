@@ -2,9 +2,10 @@
 date: '2025-05-03'
 draft: false
 url: 'posts/hello-world'
+aliases: [../../../posts/hello-world/]
 title: 'Hello World!'
 toc: true
-categories: ['geologia', 'webdev', 'psicologia']
+categories: ['geology', 'webdev', 'psychology']
 ---
 Hello, reader! Welcome to my website, here I intend to write a little about geology and technology, as well as some other sub-areas that are of my interest. Here I intend to avoid topics that I don't have mastery of, and even if I don't, my basis will be referenced by people who have such expertise.
 

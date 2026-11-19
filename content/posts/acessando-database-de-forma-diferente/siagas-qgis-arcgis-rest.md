@@ -1,8 +1,9 @@
 ---
 title: "Quando o site cai: como acessei os poços do SIAGAS direto pelo QGIS"
 date: 2026-11-09
-draft: true
+draft: false
 categories: ["geoprocessamento", "python", "database"]
+description: "Como consultar os dados públicos de poços do SIAGAS pelo serviço ArcGIS REST do SGB, usando QGIS e Python."
 ---
 
 ## Introdução

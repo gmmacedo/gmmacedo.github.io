@@ -1,6 +1,7 @@
 ---
 title: 'Sobre mim'
 date: '2025-04-17'
+aliases: [/pt/about/]
 ---
 Olá mundo! Me chamo Gabriel Moura, sou estudante de geologia e além de apaixonado pela terra, seu processo e a sua evolução, sempre tive muito interesse em programação e mais recentemente um interesse em estatística, data science e por aí vai. Em 2017 entrei no curso de geologia no Instituto Federal do Rio Grande do Norte e antes mesmo de terminar o curso eu entrei no curso de geologia na Universidade Federal do Rio Grande do Norte.
 
