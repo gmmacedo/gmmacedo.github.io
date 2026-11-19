@@ -1,7 +1,7 @@
 ---
 title: "Tratamento de dados geológicos"
 date: 2025-05-21
-draft: false
+draft: true
 categories: ["geoprocessamento", "python", "database"]
 description: "Análise geoquímica e interpolação espacial com Python e QGIS, com uma comparação de nove valores de potência no método IDW."
 cover: Contour_plot.png
