@@ -1,0 +1,22 @@
+{{ $page := . }}
+<ul class="site-languages" aria-label="{{ T "siteLanguages" }}">
+  {{ range hugo.Sites }}
+    {{ $language := .Language }}
+    {{ $label := partial "utils/hugo-compat/language-label.html" $language }}
+    {{ if eq $page.Language.Lang $language.Lang }}
+      <li><span class="site-language" lang="{{ $language.Lang }}" title="{{ $label }}" aria-current="true">{{ upper $language.Lang }}</span></li>
+    {{ else }}
+      {{ $target := .Home }}
+      {{ $site := . }}
+      {{ with $page.CurrentSection }}
+        {{ with $site.GetPage .Path }}
+          {{ $target = . }}
+        {{ end }}
+      {{ end }}
+      {{ range where $page.Translations "Language.Lang" $language.Lang }}
+        {{ $target = . }}
+      {{ end }}
+      <li><a class="site-language" lang="{{ $language.Lang }}" hreflang="{{ $language.Lang }}" aria-label="{{ $label }}" title="{{ $label }}" href="{{ $target.RelPermalink }}">{{ upper $language.Lang }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>

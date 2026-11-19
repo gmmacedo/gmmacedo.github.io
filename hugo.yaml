@@ -1,0 +1,58 @@
+baseURL: 'https://gmmacedo.github.io/'
+defaultContentLanguage: pt
+title: 'Gabriel Moura'
+
+languages:
+  pt:
+    label: Português
+    locale: pt-BR
+    weight: 1
+    params:
+      description: 'Portfólio e blog de Gabriel Moura sobre geologia, geoprocessamento e ciência de dados.'
+    menus:
+      main:
+        - name: Projetos
+          pageRef: /portfolio
+          weight: 1
+        - name: Blog
+          pageRef: /posts
+          weight: 2
+        - name: Sobre
+          pageRef: /about
+          weight: 3
+  en:
+    label: English
+    locale: en-US
+    weight: 2
+    params:
+      description: 'Gabriel Moura’s portfolio and blog on geology, geospatial analysis, and data science.'
+    menus:
+      main:
+        - name: Projects
+          pageRef: /portfolio
+          weight: 1
+        - name: Blog
+          pageRef: /posts
+          weight: 2
+        - name: About
+          pageRef: /about
+          weight: 3
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+params:
+  linkedin: 'https://www.linkedin.com/in/gabriel-moura-macedo/'
+  search:
+    enable: false
+  theme:
+    default: dark
+    displayToggle: true
+
+markup:
+  goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+    renderer:
+      unsafe: false

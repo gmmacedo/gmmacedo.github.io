@@ -1,0 +1,6 @@
+{{ if not .Date.IsZero }}
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ time.Format "02 Jan 2006" .Date }}</time>
+{{ end }}
+{{ with .ReadingTime }}
+  <time class="site-reading-time" datetime="PT{{ . }}M">{{ T "siteReadingTime" . }}</time>
+{{ end }}

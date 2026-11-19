@@ -1,0 +1,7 @@
+{{ with .GetTerms "categories" }}
+  <ul class="site-topics" aria-label="{{ T "siteTopics" }}">
+    {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" dir="{{ partial "utils/hugo-compat/language-direction.html" .Site.Language | default "ltr" }}">
+  {{- $head := partial "head.html" . -}}
+  {{- with partial "security-meta.html" . -}}
+    {{- if not (strings.Contains $head "<head>") -}}
+      {{- errorf "Could not insert the security policy into the theme's head" -}}
+    {{- end -}}
+    {{- $head = replace $head "<head>" (printf "<head>\n%s" .) 1 -}}
+  {{- end -}}
+  {{- $head | safeHTML -}}
+  <body>
+    <a href="#content" class="hx:sr-only hx:focus-visible:not-sr-only hx:focus-visible:fixed hx:focus-visible:z-50 hx:focus-visible:top-2 hx:focus-visible:left-2 hx:focus-visible:bg-primary-500 hx:focus-visible:text-white hx:focus-visible:rounded-md hx:focus-visible:px-4 hx:focus-visible:py-2">
+      {{ (T "skipToContent") | default "Skip to content" }}
+    </a>
+    {{ partial "banner.html" . }}
+    {{ partial "navbar.html" . }}
+    {{ block "main" . }}{{ end }}
+    {{ if or (eq .Site.Params.footer.enable nil) .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+    {{ partial "components/search-dialog.html" . }}
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

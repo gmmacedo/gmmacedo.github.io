@@ -1,54 +1,55 @@
 ---
-title: "When the Website Goes Down: How I Accessed SIAGAS Wells Directly from QGIS"
+title: "When the website goes down: accessing SIAGAS well data directly in QGIS"
 date: 2026-11-09
 draft: false
-categories: ["geoprocessamento", "python", "database"]
+categories: ["geospatial analysis", "python", "database"]
+description: "How to retrieve public SIAGAS well data using QGIS, Python, and the Geological Survey of Brazil’s ArcGIS REST service."
 ---
 
 ## Introduction
 
-I recently went through a situation that, if you haven't experienced it yet, you most likely will: opening the website of a Brazilian government agency and finding it offline.
+I recently tried to open a Brazilian government website and found it was down. If this has never happened to you, it probably will.
 
-That's when I remembered news stories about AI agents that, unable to complete a task the conventional way, ended up breaking into a server to get the result. I thought: what if I asked an agent to find an alternative way to access the data I wanted? (Without breaking into anything, of course.)
+It reminded me of news reports about AI agents that broke into servers after their usual approach failed. I wondered whether I could ask an agent to find another way to get the data I needed through an official channel.
 
-The result did not disappoint. Even better: it taught me a new method for adding data to QGIS. I already knew the idea, but only applied locally, since I still don't have any remote server.
+The result taught me another way to add data in QGIS. I was familiar with the idea from working locally, since I have never used a remote server of my own.
 
-When I practiced with databases, more specifically PostgreSQL with the spatial extension, I did everything on my own machine. So I never felt the latency of a non-local server, and there was no significant difference between one approach and the other. On top of that, setting up the database was much more work than using my folders of shapefiles and GeoPackages, which already had shortcuts in QGIS: I just had to drag and drop the files.
+I had previously practiced with PostgreSQL and its spatial extension on my own machine. Local connections had little noticeable latency, and setting up a database was more work than dragging shapefiles or GeoPackages into QGIS.
 
-This time was different, and the path I found is worth sharing. The data in question came from SIAGAS (the Brazilian Groundwater Information System), and the solution was an official geographic service from the Geological Survey of Brazil (SGB), which can be accessed directly from QGIS or Python, without depending on the website that was down.
+This time I needed data from SIAGAS, Brazil’s Groundwater Information System. The Geological Survey of Brazil (SGB) publishes an official geographic service for it. QGIS and Python can use that service even when the main website is down.
 
-## 1. Direct access to the SIAGAS well database
+## 1. Connecting directly to the SIAGAS well database
 
-The SGB makes the wells available through an ArcGIS REST service on its Geoportal:
+SGB publishes well data through an ArcGIS REST service on its geoportal.
 
-[SIAGAS: Wells Layer (FeatureServer)](https://geoportal.sgb.gov.br/server/rest/services/Hosted/siagas_web/FeatureServer/1)
+[SIAGAS: Wells layer (FeatureServer)](https://geoportal.sgb.gov.br/server/rest/services/Hosted/siagas_web/FeatureServer/1)
 
-This service provides the geometry of the wells and their attributes. The layer uses geographic coordinates (EPSG:4326), accepts queries in GeoJSON, and supports pagination, which makes it possible to retrieve large volumes of records.
+The service provides well geometries and attributes. Its layer uses geographic coordinates (EPSG:4326), returns GeoJSON, and supports pagination for retrieving large sets of records.
 
 The service has three layers:
 
 | ID | Layer |
 | --- | --- |
-| 0 | Legacy Wells |
-| 1 | Wells |
-| 2 | RIMAS Wells |
+| 0 | Poços Legacy (legacy wells) |
+| 1 | Poços (wells) |
+| 2 | Poços RIMAS (monitoring wells) |
 
-### How to access it from QGIS
+### Connecting in QGIS
 
 1. Open QGIS.
-2. Go to `Layer → Add Layer → Add ArcGIS REST Server Layer` (or use the Data Source Manager).
-3. Create a new connection with the URL below.
-4. Connect and select the `Wells` layer.
+2. Choose `Layer → Add Layer → Add ArcGIS REST Server Layer` or open the Data Source Manager.
+3. Create a connection with the URL below.
+4. Connect and select the `Poços` layer.
 
 ```
 https://geoportal.sgb.gov.br/server/rest/services/Hosted/siagas_web/FeatureServer
 ```
 
-Once loaded, you can export the layer to GeoPackage (`.gpkg`) and start working with a local copy.
+Once the layer loads, you can export it to a GeoPackage (`.gpkg`) and work with a local copy.
 
 ## 2. Downloading the data with Python
 
-The REST service limits each response to 2,000 records. The solution is to use pagination: the script below goes through the layer in blocks and, at the end, saves everything to a GeoPackage.
+The REST service limits each response to 2,000 records. The script below retrieves the records in batches and saves them to a GeoPackage.
 
 ```python
 import requests
@@ -111,34 +112,34 @@ gdf.to_file(
 print(f"Total: {len(gdf)} poços")
 ```
 
-Keep in mind that the code uses the official layer, but running it to completion still depends on the server's availability and stability.
+The script uses the official layer. A complete download still depends on the server’s availability and stability.
 
-To download only the wells of a single state, such as Rio Grande do Norte, just change the filter:
+To download wells for a single state, such as Rio Grande do Norte, change the filter:
 
 ```python
 "where": "str_uf = 'RN'",
 ```
 
-The layer includes fields such as depth, aquifer, static level (`ne`), dynamic level (`nd`), pH, electrical conductivity, and specific capacity, which already opens up plenty of analysis possibilities.
+The layer contains fields including well depth, aquifer, static water level (`ne`), dynamic water level (`nd`), pH, electrical conductivity, and specific capacity.
 
-## 3. A second service as a fallback
+## 3. An alternative service
 
-There is also a second official layer, independent of the main SIAGAS Web address:
+SGB also provides a second official layer independent of the main SIAGAS Web endpoint.
 
-[SIAGAS MODDAD: Geographic service](https://geoportal.sgb.gov.br/server/rest/services/hidrologia/SIAGAS_MODDAD/FeatureServer/0)
+[SIAGAS MODDAD: geographic service](https://geoportal.sgb.gov.br/server/rest/services/hidrologia/SIAGAS_MODDAD/FeatureServer/0)
 
-It can serve as an alternative if the first one has problems.
+You can use it if the main service is unavailable.
 
-## My take
+## What worked best for me
 
-I initially tested the Python code, which was my goal in the first place, but it has some drawbacks, mainly speed: even after changing the `batch_size` and `sleep` parameters, it remained very slow and less practical. The reason is that the script downloads the wells in series: each request returns at most 2,000 records in GeoJSON, and only then is the next one made. Since that limit is set by the server itself, increasing `batch_size` didn't help, and `sleep` still added a pause to every request.
+I tried Python first. The script remained slow even after I changed `batch_size` and `sleep`. It downloads wells in sequence, with up to 2,000 GeoJSON records per request. Raising `batch_size` could not change the server’s limit, and `sleep` added a pause between requests.
 
-I also saw that there were two other approaches that the AI suggested, and I decided to test them. I was curious about the first one, which integrates directly with QGIS, and I was impressed by its speed compared to the previous method. QGIS doesn't need to download the whole service at once: it asks the server only for the wells in the area visible on the map and fetches more as you navigate, whereas the script goes through the entire database in blocks.
+The AI agent suggested two other approaches. I tried the direct connection in QGIS and was surprised by how much faster it felt. QGIS requests the wells in the visible map area and fetches more as you move around. The script downloads the entire dataset in batches.
 
 ## Conclusion
 
-What started as a setback, a website being offline, turned into quite a learning experience. I found out that you can bring remote geographic data straight into QGIS using an official REST service, without setting up a database and without depending on the agency's website.
+A website outage taught me how to load remote geographic data directly in QGIS using an official REST service. The process requires neither a local database nor a working SIAGAS Web frontend.
 
-In my test, the Python script worked, but it was much slower than the direct connection through QGIS. That's why my recommendation is to connect the Geoportal's SGB FeatureServer in QGIS and save a local copy as a GeoPackage or DuckDB. That way you won't be held hostage by SIAGAS Web every time you need to query or analyze the wells.
+The Python script worked in my test, but QGIS was much faster for exploring the wells. I recommend connecting to the SGB geoportal’s FeatureServer in QGIS and saving a local copy in GeoPackage or DuckDB for future analysis.
 
-And here's a tip: the next time a website goes down, ask your AI agent whether there is another official path to the data. Sometimes there is, and you learn something new along the way.
+If a website goes down, it’s worth asking whether the data provider publishes another official way to access the same data.

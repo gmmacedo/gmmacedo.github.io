@@ -1,0 +1,20 @@
+{{- $src := urls.Parse (.Get "src") -}}
+{{- $path := path.Clean $src.Path -}}
+{{- if or $src.Scheme $src.Host (not (hasPrefix $path "/maps/")) -}}
+  {{- errorf "The folium shortcode requires a local /maps/ URL at %s" .Position -}}
+{{- end -}}
+{{- $height := .Get "height" | default "500" -}}
+
+<div class="folium-map">
+  <iframe
+    src="{{ relURL (strings.TrimPrefix "/" $path) }}"
+    title="{{ .Get "title" | default (T "siteInteractiveMap") }}"
+    width="100%"
+    height="{{ $height }}"
+    style="border: 0; display: block;"
+    loading="lazy"
+    sandbox="allow-scripts"
+    referrerpolicy="no-referrer"
+    allowfullscreen>
+  </iframe>
+</div>

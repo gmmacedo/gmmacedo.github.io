@@ -1,0 +1,37 @@
+{{ $isWork := in (slice "posts" "portfolio") .Section }}
+{{ $showTOC := and (ne .Params.toc false) .Fragments.Identifiers }}
+<main id="content" class="site-shell site-reading">
+  <article class="site-reading-grid{{ if $showTOC }} site-reading-with-toc{{ end }}">
+    <header class="site-page-header">
+      {{ if $isWork }}
+        {{ with .CurrentSection }}
+          <a class="site-kicker site-back" href="{{ .RelPermalink }}"><span aria-hidden="true">←</span> {{ .Title }}</a>
+        {{ end }}
+      {{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="site-deck">{{ . }}</p>{{ end }}
+      {{ if $isWork }}
+        <div class="site-article-meta">
+          {{ partial "editorial-meta.html" . }}
+        </div>
+        {{ partial "editorial-topics.html" . }}
+      {{ end }}
+    </header>
+
+    {{ if $showTOC }}
+      <aside class="site-article-toc">
+        <h2 class="site-kicker">{{ T "siteInThisArticle" }}</h2>
+        {{ .TableOfContents }}
+      </aside>
+      {{ $script := resources.Get "js/toc.js" }}
+      {{ if hugo.IsProduction }}{{ $script = $script | minify | fingerprint }}{{ end }}
+      <script defer src="{{ $script.RelPermalink }}"{{ with $script.Data.Integrity }} integrity="{{ . }}"{{ end }}></script>
+    {{ end }}
+
+    <div class="content site-prose">
+      {{ partial "custom/content-begin.html" . }}
+      {{ .Content }}
+      {{ partial "custom/content-end.html" . }}
+    </div>
+  </article>
+</main>

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="{{ partial "utils/hugo-compat/language-locale.html" site.Language }}">
+  <head>
+    <meta charset="utf-8">
+    {{ partial "security-meta.html" . }}
+    <title>{{ .Permalink }}</title>
+    {{ with .OutputFormats.Canonical }}<link rel="{{ .Rel }}" href="{{ .Permalink }}">{{ end }}
+    <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+  </head>
+</html>

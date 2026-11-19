@@ -1,0 +1,16 @@
+<dialog class="image-viewer" id="image-viewer" aria-label="{{ T "siteImageViewer" }}" data-open-label="{{ T "siteOpenImage" }}">
+  <div class="image-viewer-toolbar">
+    <button type="button" data-zoom-out aria-label="{{ T "siteZoomOut" }}" title="{{ T "siteZoomOut" }}">−</button>
+    <button type="button" data-zoom-in aria-label="{{ T "siteZoomIn" }}" title="{{ T "siteZoomIn" }}">+</button>
+    <button type="button" data-close aria-label="{{ T "siteCloseImage" }}" title="{{ T "siteCloseImage" }}" autofocus>×</button>
+  </div>
+  <div class="image-viewer-stage">
+    <img alt="" draggable="false">
+  </div>
+  <p class="image-viewer-caption" hidden></p>
+</dialog>
+{{ with resources.Get "js/image-viewer.js" }}
+  {{ $script := . }}
+  {{ if hugo.IsProduction }}{{ $script = $script | minify | fingerprint }}{{ end }}
+  <script defer src="{{ $script.RelPermalink }}"{{ with $script.Data.Integrity }} integrity="{{ . }}"{{ end }}></script>
+{{ end }}
