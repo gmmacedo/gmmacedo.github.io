@@ -78,10 +78,6 @@ html body {
   font-weight: 700;
 }
 
-.site-brand img {
-  object-fit: contain;
-}
-
 .site-nav-links {
   display: flex;
   align-items: center;
